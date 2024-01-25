@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Body styles */
+body {
+  color: #e6e6e6; /* Light gray text color */
+  background-color: #1f2933; /* Slightly darker background color */
+}
+
+/* Container styles */
+.container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #2c3e50;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Form styles */
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: #ecf0f1;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #3498db;
+  border-radius: 5px;
+  background-color: #34495e;
+  color: #ecf0f1;
+}
+
+/* Button styles */
+button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  background-color: #2ecc71;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect for button */
+button:hover {
+  background-color: #27ae60;
+}
+
+/* List styles */
+ul {
+  list-style: none;
+  padding: 20px;
+}
+
+/* List item styles */
+ul li {
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #3498db;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  text-align: center;
+}
+
+/* Hover effect for list items */
+ul li:hover {
+  background-color: #2980b9;
+}
+
+/* Responsive styling */
+@media only screen and (max-width: 600px) {
+  .container {
+    max-width: 100%;
+  }
+}

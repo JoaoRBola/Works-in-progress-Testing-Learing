@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+
+  <link rel="stylesheet" type="text/css" href="testar.css">
+
+</head>
+
+<body>
+
+  <label for="regionInput">Procurar por Regiões:</label>
+  <p>
+    Procurar regiões:
+    <select id="regionInput" >
+      <option value="" selected disabled>Selecione uma região</option>
+      <option value="America">America</option>
+      <option value="Europe">Europa</option>
+      <option value="Africa">Africa</option>
+      <option value="Asia">Asia</option>
+    </select>
+    <button onclick="filterCountries()">Procurar</button>
+  </p>
+
+  <label for="subregionInput">Procurar por Subregiões:</label>
+  <p>
+    Procurar Subregiões:
+    <select id="subregionInput" >
+      <option value="" selected disabled>Selecione uma sub-região</option>
+      <option value="Northern America">America do Norte</option>
+      <option value="Southern America">America do Sul</option>
+      <option value="Northern Europe">Europa do Norte</option>
+      <option value="Southern Europe">Europa do Sul</option>
+      <option value="Northern Africa">Africa do Norte</option>
+      <option value="Southern Africa">Africa do Sul</option>
+      <option value="Northern Asia">Asia do Norte</option>
+      <option value="Southern Asia">Asia do Sul</option>
+    </select>
+    <button onclick="filterCountries()">Procurar</button>
+  </p>
+
+  <ul id="country-list"></ul>
+
+  <script src="segundo.js"></script>
+
+</body>
+
+</html>
